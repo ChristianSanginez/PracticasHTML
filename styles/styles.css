@@ -1,0 +1,213 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header div img {
+	cursor: pointer;
+}
+
+body {
+	font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+h1 {
+	font-size: 70px;
+	color: #95B8F6;
+	font-family: 'Style Script', cursive;
+}
+
+h2 {
+	margin: 10px;
+	padding: 10px;	
+	background-color: #95B8F6;
+	color: #FFFFFF;
+}
+
+header {
+	width: 100%;
+	padding: 20px 50px;
+	font-size: 20px;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+	background: #95B8F6;
+}
+
+header nav a {
+	text-decoration: none;
+	margin-right: 40px;
+	color: #FFFFFF;
+}
+
+header nav a:visited {
+	color: #FFFFFF;
+}
+
+header nav a:hover {
+	color: #AAAAAA;
+}
+
+section div div {
+	margin: 20px;
+	padding: 10px;
+	background-color: #95B8F6;
+	color: #FFFFFF;
+}
+
+section {
+	text-align: center;
+	width: 800px;
+	margin: 30px auto;
+	padding: 50px;
+	background-color: #E9ECEF;
+	color: #0352669f;
+}
+
+section form div ul section {
+	width: 100%;
+	padding: 5px 70px;
+	list-style: none;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+
+section div ul section {
+	width: 100%;
+	padding: 5px 40px;
+	font-size: 25px;
+	list-style: none;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:center;
+}
+
+section div ul section li p {
+	font-size: 11px;
+}
+
+section div h3 {
+	margin: 10px;
+	padding: 10px;	
+	background-color: #84B6F4;
+	color: #FFFFFF;
+}
+
+div input[type="text"],
+div input[type="email"],
+div input[type="password"],
+div input[type="number"] {
+	width: 350px;
+	height: 35px;
+	margin: 5px;
+	padding: 10px;
+	outline: none;
+	border: 2px solid #0352669f;
+	border-radius: 5px;
+	padding: 15px 20px;
+	font-size: 15px;
+	color: #A4A4A4;
+}
+
+div input[type="text"]:focus,
+div input[type="email"]:focus,
+div input[type="password"]:focus,
+div input[type="number"]:focus,
+div textarea:focus {
+	outline: none;
+	border: 3px solid #00B5E29F;
+}
+
+div textarea {
+	margin: 10px;
+	width: 500px;
+	outline: none;
+	border: 2px solid #0352669f;
+	border-radius: 5px;
+	padding: 15px 20px;
+	font-size: 15px;
+	color: #A4A4A4;
+}
+
+div input[type="submit"] {
+	width: 250px;
+	height: 35px;
+	font-size: 20px;
+	background-color: #95B8F6;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+div input[type="submit"]:hover {
+	background-color: #ADD5FA;
+}
+
+section div table {
+	width: 94%;
+	margin: 20px auto;
+	padding: 10px auto;
+}
+
+section div table tr th {
+	background-color: #9CCACC;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+section div table tr td {
+	background-color: rgb(184, 221, 223);
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+section div a {
+	text-decoration: none;
+	margin: 20px auto;
+	padding: 10px 50px;
+	background-color: #84B6F4;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+section div a:hover {
+	background-color: #ADD5FA;
+}
+
+footer {
+	margin-top: 20px;
+	background: #95B8F6;
+	padding: 50px 200px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	width: 100%;
+	color: #FFFFFF;
+	position: absolute;
+	display: flex;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	justify-content:space-between;
+}
+
+footer div a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+footer div a:visited {
+	color: #FFFFFF;
+}
+
+footer div a:hover {
+	color: #AAA;
+}
